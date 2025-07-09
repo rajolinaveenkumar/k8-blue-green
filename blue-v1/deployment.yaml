@@ -16,8 +16,9 @@ spec:
       labels:
         project: myapp
         version: blue-1.0.0
-    containers:
-    - name: nginx-blue
-      image: naveenrajoli/myapp:1.0.0
-      ports:
-      - containerPort: 80
+    spec:
+      containers:
+      - name: nginx-blue
+        image: naveenrajoli/myapp:1.0.0
+        ports:
+        - containerPort: 80
