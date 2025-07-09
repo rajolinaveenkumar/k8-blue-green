@@ -1,7 +1,7 @@
-apiVersion: autoscalling.k8s.io/v1
+apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: my-ingress 
+  name: my-ingress
   labels:
     project: myproject
     owner: naveenrajoli
