@@ -12,6 +12,10 @@ spec:
       project: myapp
       version: blue-1.0.0
   template:
+    metadata:
+      labels:
+        project: myapp
+        version: blue-1.0.0
     containers:
     - name: nginx-blue
       image: naveenrajoli/myapp:1.0.0
