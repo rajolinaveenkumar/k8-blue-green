@@ -8,7 +8,7 @@ metadata:
 spec:
   selector:
     project: myapp
-    version: green-1.0.0
+    version: blue-1.0.0
   ports:
   - protocol: TCP
     port: 80
