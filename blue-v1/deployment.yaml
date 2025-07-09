@@ -19,6 +19,6 @@ spec:
     spec:
       containers:
       - name: nginx-blue
-        image: naveenrajoli/myapp:1.0.0
+        image: naveenrajoli/app1:1.0.0
         ports:
         - containerPort: 80
